@@ -1,0 +1,10 @@
+{
+    "cmake.generator": "MinGW Makefiles",
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};C:/MinGW/mingw64/bin"
+    },
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "string": "cpp"
+    }
+}
