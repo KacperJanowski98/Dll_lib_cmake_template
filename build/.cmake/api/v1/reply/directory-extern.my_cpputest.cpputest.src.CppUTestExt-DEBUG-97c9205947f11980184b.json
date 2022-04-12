@@ -1,0 +1,75 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/my_cpputest/cpputest/src/CppUTestExt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/my_cpputest/cpputest/src/CppUTestExt/libCppUTestExt.a"
+			],
+			"targetId" : "CppUTestExt::@54eae48d9993d4a43c55",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CppUTestExt",
+			"paths" : 
+			[
+				"extern/my_cpputest/cpputest/include/CppUTestExt/CodeMemoryReportFormatter.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/IEEE754ExceptionsPlugin.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MemoryReportAllocator.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockExpectedCall.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockCheckedExpectedCall.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockExpectedCallsList.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockSupportPlugin.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MemoryReportFormatter.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockFailure.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockSupport.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockSupport_c.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/GMock.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/GTest.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/GTestSupport.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MemoryReporterPlugin.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/OrderedTest.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/GTestConvertor.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockActualCall.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockCheckedActualCall.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockNamedValue.h",
+				"extern/my_cpputest/cpputest/include/CppUTestExt/MockSupport.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/my_cpputest/cpputest/src/CppUTestExt",
+		"source" : "extern/my_cpputest/cpputest/src/CppUTestExt"
+	}
+}

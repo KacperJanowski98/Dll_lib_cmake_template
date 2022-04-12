@@ -1,0 +1,81 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/my_cpputest/cpputest/src/CppUTest/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/my_cpputest/cpputest/src/CppUTest/libCppUTest.a"
+			],
+			"targetId" : "CppUTest::@84759261afc3f4d6485a",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CppUTest",
+			"paths" : 
+			[
+				"extern/my_cpputest/cpputest/include/CppUTest/CommandLineArguments.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/PlatformSpecificFunctions.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestMemoryAllocator.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/CommandLineTestRunner.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/PlatformSpecificFunctions_c.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestOutput.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/CppUTestConfig.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/SimpleString.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/SimpleStringInternalCache.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestPlugin.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/JUnitTestOutput.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TeamCityTestOutput.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/StandardCLibrary.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestRegistry.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/MemoryLeakDetector.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestFailure.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestResult.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/MemoryLeakDetectorMallocMacros.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestFilter.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestTestingFixture.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/MemoryLeakDetectorNewMacros.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestHarness.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/Utest.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/MemoryLeakWarningPlugin.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/TestHarness_c.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/UtestMacros.h",
+				"extern/my_cpputest/cpputest/include/CppUTest/SimpleMutex.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/my_cpputest/cpputest/src/CppUTest",
+		"source" : "extern/my_cpputest/cpputest/src/CppUTest"
+	}
+}

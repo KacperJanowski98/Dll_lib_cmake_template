@@ -1,0 +1,207 @@
+[
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_MEM_LEAK_DETECTION_DISABLED=1 @CMakeFiles/my_cpputest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\my_cpputest.dir\\cpputest\\src\\CppUTestExt\\OrderedTest.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\OrderedTest.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/OrderedTest.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\CommandLineArguments.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\CommandLineArguments.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/CommandLineArguments.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\MemoryLeakWarningPlugin.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\MemoryLeakWarningPlugin.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/MemoryLeakWarningPlugin.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TestHarness_c.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TestHarness_c.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TestHarness_c.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TestRegistry.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TestRegistry.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TestRegistry.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\CommandLineTestRunner.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\CommandLineTestRunner.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/CommandLineTestRunner.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\SimpleString.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\SimpleString.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/SimpleString.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\SimpleStringInternalCache.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\SimpleStringInternalCache.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/SimpleStringInternalCache.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TestMemoryAllocator.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TestMemoryAllocator.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TestMemoryAllocator.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TestResult.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TestResult.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TestResult.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\JUnitTestOutput.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\JUnitTestOutput.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/JUnitTestOutput.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TeamCityTestOutput.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TeamCityTestOutput.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TeamCityTestOutput.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TestFailure.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TestFailure.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TestFailure.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TestOutput.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TestOutput.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TestOutput.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\MemoryLeakDetector.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\MemoryLeakDetector.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/MemoryLeakDetector.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TestFilter.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TestFilter.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TestFilter.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TestPlugin.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TestPlugin.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TestPlugin.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\TestTestingFixture.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\TestTestingFixture.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/TestTestingFixture.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\SimpleMutex.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\SimpleMutex.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/SimpleMutex.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\Utest.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTest\\Utest.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTest/Utest.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTest.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTest.dir\\__\\Platforms\\Gcc\\UtestPlatform.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\Platforms\\Gcc\\UtestPlatform.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/Platforms/Gcc/UtestPlatform.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\CodeMemoryReportFormatter.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\CodeMemoryReportFormatter.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/CodeMemoryReportFormatter.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\GTest.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\GTest.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/GTest.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\IEEE754ExceptionsPlugin.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\IEEE754ExceptionsPlugin.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/IEEE754ExceptionsPlugin.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MemoryReporterPlugin.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MemoryReporterPlugin.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MemoryReporterPlugin.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MockFailure.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MockFailure.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MockFailure.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MockSupportPlugin.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MockSupportPlugin.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MockSupportPlugin.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MockActualCall.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MockActualCall.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MockActualCall.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MockSupport_c.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MockSupport_c.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MockSupport_c.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MemoryReportAllocator.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MemoryReportAllocator.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MemoryReportAllocator.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MockExpectedCall.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MockExpectedCall.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MockExpectedCall.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MockNamedValue.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MockNamedValue.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MockNamedValue.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\OrderedTest.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\OrderedTest.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/OrderedTest.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MemoryReportFormatter.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MemoryReportFormatter.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MemoryReportFormatter.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MockExpectedCallsList.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MockExpectedCallsList.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MockExpectedCallsList.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_HAVE_GETTIMEOFDAY=1 -DCPPUTEST_HAVE_STRDUP=1 -DHAVE_CONFIG_H -D_TIMESPEC_DEFINED=1 @CMakeFiles/CppUTestExt.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\CppUTestExt.dir\\MockSupport.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\extern\\my_cpputest\\cpputest\\src\\CppUTestExt\\MockSupport.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/extern/my_cpputest/cpputest/src/CppUTestExt/MockSupport.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe  @CMakeFiles/app_template.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template.dir\\src\\simple_app.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\src\\simple_app.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/src/simple_app.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -Dapp_template_dll_EXPORTS @CMakeFiles/app_template_dll.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template_dll.dir\\src\\c_dll_wrapper.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\src\\c_dll_wrapper.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/src/c_dll_wrapper.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -Dapp_template_dll_EXPORTS @CMakeFiles/app_template_dll.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template_dll.dir\\src\\DLLMain.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\src\\DLLMain.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/src/DLLMain.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/tests",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe    -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template_tests.dir\\src\\main.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\tests\\src\\main.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/tests/src/main.cpp"
+},
+{
+  "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/tests",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe    -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template_tests.dir\\src\\app_tests.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\tests\\src\\app_tests.cpp",
+  "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/tests/src/app_tests.cpp"
+}
+]

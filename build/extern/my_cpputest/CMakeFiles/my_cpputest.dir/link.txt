@@ -1,0 +1,2 @@
+C:\MinGW\mingw64\bin\ar.exe qc libmy_cpputest.a CMakeFiles/my_cpputest.dir/cpputest/src/CppUTestExt/OrderedTest.cpp.obj
+C:\MinGW\mingw64\bin\ranlib.exe libmy_cpputest.a

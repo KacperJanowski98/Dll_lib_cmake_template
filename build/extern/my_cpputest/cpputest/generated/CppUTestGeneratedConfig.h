@@ -1,0 +1,15 @@
+#ifndef CONFIG_H_
+#define CONFIG_H_
+
+#define CPPUTEST_MEM_LEAK_DETECTION_DISABLED
+/* #undef CPPUTEST_USE_LONG_LONG */
+
+/* #undef CPPUTEST_NO_INF */
+/* #undef CPPUTEST_NO_NAN */
+
+/* #undef CPPUTEST_STD_C_LIB_DISABLED */
+#define CPPUTEST_STD_CPP_LIB_DISABLED
+
+/* #undef INCLUDE_GTEST_TESTS */
+
+#endif

@@ -1,0 +1,11 @@
+prefix=D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: CppUtest
+URL: https://github.com/cpputest/cpputest
+Description: Easy to use unit test framework for C/C++
+Version: 4.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lstdc++ -lCppUTest -lCppUTestExt

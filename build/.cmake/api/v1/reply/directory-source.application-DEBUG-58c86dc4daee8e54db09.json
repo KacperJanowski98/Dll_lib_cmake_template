@@ -1,0 +1,97 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"source/application/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/app_template",
+			"paths" : 
+			[
+				"source/application/libapp_template.a"
+			],
+			"targetId" : "app_template::@72e6c083a7135e3b452e",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/app_template",
+			"paths" : 
+			[
+				"source/application/include/application/simple_app.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/shared/app_template",
+			"paths" : 
+			[
+				"source/application/libapp_template_dll.dll.a"
+			],
+			"targetId" : "app_template_dll::@72e6c083a7135e3b452e",
+			"targetIndex" : 31,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/shared/app_template",
+			"paths" : 
+			[
+				"source/application/libapp_template_dll.dll"
+			],
+			"targetId" : "app_template_dll::@72e6c083a7135e3b452e",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/shared/app_template",
+			"paths" : 
+			[
+				"build/source/application/app_template_dll_export.h",
+				"source/application/include/application/c_dll_wrapper.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "source/application",
+		"source" : "source/application"
+	}
+}

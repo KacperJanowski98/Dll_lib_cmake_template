@@ -1,0 +1,136 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/my_cpputest/cpputest/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 190,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 194,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/extern/my_cpputest/cpputest/cpputest.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/CppUTest",
+			"paths" : 
+			[
+				"build/extern/my_cpputest/cpputest/generated/CppUTestGeneratedConfig.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/CppUTest/cmake",
+			"paths" : 
+			[
+				"build/extern/my_cpputest/cpputest/install/CppUTestConfig.cmake",
+				"build/extern/my_cpputest/cpputest/install/CppUTestConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/CppUTest/cmake",
+			"exportName" : "CppUTestTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "CppUTest::@84759261afc3f4d6485a",
+					"index" : 9
+				},
+				{
+					"id" : "CppUTestExt::@54eae48d9993d4a43c55",
+					"index" : 10
+				}
+			],
+			"paths" : 
+			[
+				"extern/my_cpputest/cpputest/CMakeFiles/Export/lib/CppUTest/cmake/CppUTestTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/CppUTest/cmake/Scripts",
+			"paths" : 
+			[
+				"extern/my_cpputest/cpputest/cmake/Scripts/CppUTestBuildTimeDiscoverTests.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/CppUTest/cmake/Modules",
+			"paths" : 
+			[
+				"extern/my_cpputest/cpputest/cmake/Modules/CppUTestBuildTimeDiscoverTests.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/my_cpputest/cpputest",
+		"source" : "extern/my_cpputest/cpputest"
+	}
+}
