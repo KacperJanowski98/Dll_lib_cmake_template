@@ -1,20 +1,20 @@
 Determining if the fork exist failed with the following output:
 Change Dir: D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7a20a/fast && C:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7a20a.dir\build.make CMakeFiles/cmTC_7a20a.dir/build
+Run Build Command(s):C:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_deed5/fast && C:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_deed5.dir\build.make CMakeFiles/cmTC_deed5.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7a20a.dir/CheckSymbolExists.c.obj
-C:\MinGW\mingw64\bin\gcc.exe  @CMakeFiles/cmTC_7a20a.dir/includes_C.rsp -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -Wunreachable-code -Wno-unused-value -Wformat=0 -Wno-missing-field-initializers  -o CMakeFiles\cmTC_7a20a.dir\CheckSymbolExists.c.obj -c D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_deed5.dir/CheckSymbolExists.c.obj
+C:\MinGW\mingw64\bin\gcc.exe  @CMakeFiles/cmTC_deed5.dir/includes_C.rsp -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -Wunreachable-code -Wno-unused-value -Wformat=0 -Wno-missing-field-initializers  -o CMakeFiles\cmTC_deed5.dir\CheckSymbolExists.c.obj -c D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
 D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
 D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'fork' undeclared (first use in this function)
    return ((int*)(&fork))[argc];
                    ^
 compilation terminated due to -Wfatal-errors.
-CMakeFiles\cmTC_7a20a.dir\build.make:77: recipe for target 'CMakeFiles/cmTC_7a20a.dir/CheckSymbolExists.c.obj' failed
-mingw32-make.exe[1]: *** [CMakeFiles/cmTC_7a20a.dir/CheckSymbolExists.c.obj] Error 1
+CMakeFiles\cmTC_deed5.dir\build.make:77: recipe for target 'CMakeFiles/cmTC_deed5.dir/CheckSymbolExists.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_deed5.dir/CheckSymbolExists.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7a20a/fast' failed
-mingw32-make.exe: *** [cmTC_7a20a/fast] Error 2
+Makefile:126: recipe for target 'cmTC_deed5/fast' failed
+mingw32-make.exe: *** [cmTC_deed5/fast] Error 2
 
 
 File D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -34,19 +34,19 @@ int main(int argc, char** argv)
 Determining if the waitpid exist failed with the following output:
 Change Dir: D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_751a7/fast && C:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_751a7.dir\build.make CMakeFiles/cmTC_751a7.dir/build
+Run Build Command(s):C:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6c329/fast && C:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6c329.dir\build.make CMakeFiles/cmTC_6c329.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_751a7.dir/CheckSymbolExists.c.obj
-C:\MinGW\mingw64\bin\gcc.exe  @CMakeFiles/cmTC_751a7.dir/includes_C.rsp -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -Wunreachable-code -Wno-unused-value -Wformat=0 -Wno-missing-field-initializers  -o CMakeFiles\cmTC_751a7.dir\CheckSymbolExists.c.obj -c D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_6c329.dir/CheckSymbolExists.c.obj
+C:\MinGW\mingw64\bin\gcc.exe  @CMakeFiles/cmTC_6c329.dir/includes_C.rsp -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -Wunreachable-code -Wno-unused-value -Wformat=0 -Wno-missing-field-initializers  -o CMakeFiles\cmTC_6c329.dir\CheckSymbolExists.c.obj -c D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
 D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:22: fatal error: sys/wait.h: No such file or directory
  #include <sys/wait.h>
                       ^
 compilation terminated.
-CMakeFiles\cmTC_751a7.dir\build.make:77: recipe for target 'CMakeFiles/cmTC_751a7.dir/CheckSymbolExists.c.obj' failed
-mingw32-make.exe[1]: *** [CMakeFiles/cmTC_751a7.dir/CheckSymbolExists.c.obj] Error 1
+CMakeFiles\cmTC_6c329.dir\build.make:77: recipe for target 'CMakeFiles/cmTC_6c329.dir/CheckSymbolExists.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_6c329.dir/CheckSymbolExists.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_751a7/fast' failed
-mingw32-make.exe: *** [cmTC_751a7/fast] Error 2
+Makefile:126: recipe for target 'cmTC_6c329/fast' failed
+mingw32-make.exe: *** [cmTC_6c329/fast] Error 2
 
 
 File D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -66,22 +66,22 @@ int main(int argc, char** argv)
 Determining if the pthread_mutex_lock exist failed with the following output:
 Change Dir: D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7ea7e/fast && C:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7ea7e.dir\build.make CMakeFiles/cmTC_7ea7e.dir/build
+Run Build Command(s):C:/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_945ba/fast && C:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_945ba.dir\build.make CMakeFiles/cmTC_945ba.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7ea7e.dir/CheckSymbolExists.c.obj
-C:\MinGW\mingw64\bin\gcc.exe  @CMakeFiles/cmTC_7ea7e.dir/includes_C.rsp -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -Wunreachable-code -Wno-unused-value -Wformat=0 -Wno-missing-field-initializers  -o CMakeFiles\cmTC_7ea7e.dir\CheckSymbolExists.c.obj -c D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-Linking C executable cmTC_7ea7e.exe
-"D:\Program Files\cmake-3.22.1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7ea7e.dir\link.txt --verbose=1
-"D:\Program Files\cmake-3.22.1\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7ea7e.dir/objects.a
-C:\MinGW\mingw64\bin\ar.exe qc CMakeFiles\cmTC_7ea7e.dir/objects.a @CMakeFiles\cmTC_7ea7e.dir\objects1.rsp
-C:\MinGW\mingw64\bin\gcc.exe  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -Wunreachable-code -Wno-unused-value -Wformat=0 -Wno-missing-field-initializers  -Wl,--whole-archive CMakeFiles\cmTC_7ea7e.dir/objects.a -Wl,--no-whole-archive -o cmTC_7ea7e.exe -Wl,--out-implib,libcmTC_7ea7e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7ea7e.dir\linklibs.rsp
-CMakeFiles\cmTC_7ea7e.dir/objects.a(CheckSymbolExists.c.obj):CheckSymbolExists.c:(.text+0x24): undefined reference to `pthread_mutex_lock'
+Building C object CMakeFiles/cmTC_945ba.dir/CheckSymbolExists.c.obj
+C:\MinGW\mingw64\bin\gcc.exe  @CMakeFiles/cmTC_945ba.dir/includes_C.rsp -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -Wunreachable-code -Wno-unused-value -Wformat=0 -Wno-missing-field-initializers  -o CMakeFiles\cmTC_945ba.dir\CheckSymbolExists.c.obj -c D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Linking C executable cmTC_945ba.exe
+"D:\Program Files\cmake-3.22.1\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_945ba.dir\link.txt --verbose=1
+"D:\Program Files\cmake-3.22.1\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_945ba.dir/objects.a
+C:\MinGW\mingw64\bin\ar.exe qc CMakeFiles\cmTC_945ba.dir/objects.a @CMakeFiles\cmTC_945ba.dir\objects1.rsp
+C:\MinGW\mingw64\bin\gcc.exe  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -Wunreachable-code -Wno-unused-value -Wformat=0 -Wno-missing-field-initializers  -Wl,--whole-archive CMakeFiles\cmTC_945ba.dir/objects.a -Wl,--no-whole-archive -o cmTC_945ba.exe -Wl,--out-implib,libcmTC_945ba.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_945ba.dir\linklibs.rsp
+CMakeFiles\cmTC_945ba.dir/objects.a(CheckSymbolExists.c.obj):CheckSymbolExists.c:(.text+0x24): undefined reference to `pthread_mutex_lock'
 collect2.exe: error: ld returned 1 exit status
-CMakeFiles\cmTC_7ea7e.dir\build.make:100: recipe for target 'cmTC_7ea7e.exe' failed
-mingw32-make.exe[1]: *** [cmTC_7ea7e.exe] Error 1
+CMakeFiles\cmTC_945ba.dir\build.make:100: recipe for target 'cmTC_945ba.exe' failed
+mingw32-make.exe[1]: *** [cmTC_945ba.exe] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7ea7e/fast' failed
-mingw32-make.exe: *** [cmTC_7ea7e/fast] Error 2
+Makefile:126: recipe for target 'cmTC_945ba/fast' failed
+mingw32-make.exe: *** [cmTC_945ba/fast] Error 2
 
 
 File D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:

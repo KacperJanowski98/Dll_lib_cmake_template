@@ -169,7 +169,6 @@ source/application/CMakeFiles/application_dll.dir/src/DLLMain.cpp.obj: ../source
 source/application/CMakeFiles/application_dll.dir/src/c_dll_wrapper.cpp.obj: ../source/application/src/c_dll_wrapper.cpp \
   ../source/application/include/application/c_dll_wrapper.h \
   ../source/application/include/application/simple_app.hpp \
-  source/application/application_dll_export.h \
   C:/MinGW/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/MinGW/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
   C:/MinGW/mingw64/x86_64-w64-mingw32/include/_mingw.h \
@@ -182,7 +181,14 @@ source/application/CMakeFiles/application_dll.dir/src/c_dll_wrapper.cpp.obj: ../
   C:/MinGW/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/MinGW/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
   C:/MinGW/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/MinGW/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h
+  C:/MinGW/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+  C:/MinGW/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/4.8.2/include-fixed/limits.h \
+  C:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/4.8.2/include-fixed/syslimits.h \
+  C:/MinGW/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/MinGW/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/MinGW/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  source/application/application_dll_export.h
 
 
 C:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/4.8.2/include/ia32intrin.h:

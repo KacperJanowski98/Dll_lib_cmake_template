@@ -3,7 +3,7 @@
     "terminal.integrated.env.windows": {
         "PATH": "${env:PATH};C:/MinGW/mingw64/bin"
     },
-    "editor.formatOnSave": true,
+    // "editor.formatOnSave": true,
     "files.associations": {
         "string": "cpp"
     }
