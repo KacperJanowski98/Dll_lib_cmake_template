@@ -171,25 +171,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-source/application/tests/CMakeFiles/app_template_tests.dir/rule:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/application/tests/CMakeFiles/app_template_tests.dir/rule
-.PHONY : source/application/tests/CMakeFiles/app_template_tests.dir/rule
+source/application/tests/CMakeFiles/application_tests.dir/rule:
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/application/tests/CMakeFiles/application_tests.dir/rule
+.PHONY : source/application/tests/CMakeFiles/application_tests.dir/rule
 
 # Convenience name for target.
-app_template_tests: source/application/tests/CMakeFiles/app_template_tests.dir/rule
-.PHONY : app_template_tests
+application_tests: source/application/tests/CMakeFiles/application_tests.dir/rule
+.PHONY : application_tests
 
 # fast build rule for target.
-app_template_tests/fast:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/build
-.PHONY : app_template_tests/fast
+application_tests/fast:
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/build
+.PHONY : application_tests/fast
 
 src/app_tests.obj: src/app_tests.cpp.obj
 .PHONY : src/app_tests.obj
 
 # target to build an object file
 src/app_tests.cpp.obj:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/src/app_tests.cpp.obj
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/src/app_tests.cpp.obj
 .PHONY : src/app_tests.cpp.obj
 
 src/app_tests.i: src/app_tests.cpp.i
@@ -197,7 +197,7 @@ src/app_tests.i: src/app_tests.cpp.i
 
 # target to preprocess a source file
 src/app_tests.cpp.i:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/src/app_tests.cpp.i
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/src/app_tests.cpp.i
 .PHONY : src/app_tests.cpp.i
 
 src/app_tests.s: src/app_tests.cpp.s
@@ -205,7 +205,7 @@ src/app_tests.s: src/app_tests.cpp.s
 
 # target to generate assembly for a file
 src/app_tests.cpp.s:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/src/app_tests.cpp.s
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/src/app_tests.cpp.s
 .PHONY : src/app_tests.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -213,7 +213,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.obj
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -221,7 +221,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.i
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -229,7 +229,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.s
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -245,7 +245,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... app_template_tests
+	@echo ... application_tests
 	@echo ... src/app_tests.obj
 	@echo ... src/app_tests.i
 	@echo ... src/app_tests.s

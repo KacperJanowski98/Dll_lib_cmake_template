@@ -136,5 +136,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "extern/my_cpputest/cpputest/src/CppUTestExt/CMakeFiles/CppUTestExt.dir/DependInfo.cmake"
   "source/application/CMakeFiles/app_template.dir/DependInfo.cmake"
   "source/application/CMakeFiles/app_template_dll.dir/DependInfo.cmake"
-  "source/application/tests/CMakeFiles/app_template_tests.dir/DependInfo.cmake"
+  "source/application/tests/CMakeFiles/application_tests.dir/DependInfo.cmake"
   )

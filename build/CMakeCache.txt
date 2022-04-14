@@ -431,16 +431,7 @@ app_template_IS_TOP_LEVEL:STATIC=OFF
 app_template_SOURCE_DIR:STATIC=D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application
 
 //Dependencies for the target
-app_template_dll_LIB_DEPENDS:STATIC=general;app_template;
-
-//Value Computed by CMake
-app_template_tests_BINARY_DIR:STATIC=D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/tests
-
-//Value Computed by CMake
-app_template_tests_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-app_template_tests_SOURCE_DIR:STATIC=D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/tests
+app_template_dll_LIB_DEPENDS:STATIC=general;application;
 
 //Value Computed by CMake
 app_template_workspace_BINARY_DIR:STATIC=D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build
@@ -450,6 +441,15 @@ app_template_workspace_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 app_template_workspace_SOURCE_DIR:STATIC=D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template
+
+//Value Computed by CMake
+application_tests_BINARY_DIR:STATIC=D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/tests
+
+//Value Computed by CMake
+application_tests_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+application_tests_SOURCE_DIR:STATIC=D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/tests
 
 //Value Computed by CMake
 my_cpputest_BINARY_DIR:STATIC=D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest

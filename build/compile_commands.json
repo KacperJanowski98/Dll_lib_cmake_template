@@ -196,12 +196,12 @@
 },
 {
   "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/tests",
-  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe    -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template_tests.dir\\src\\main.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\tests\\src\\main.cpp",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_MEM_LEAK_DETECTION_DISABLED=1 @CMakeFiles/application_tests.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\application_tests.dir\\src\\main.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\tests\\src\\main.cpp",
   "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/tests/src/main.cpp"
 },
 {
   "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/tests",
-  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe    -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template_tests.dir\\src\\app_tests.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\tests\\src\\app_tests.cpp",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -DCPPUTEST_MEM_LEAK_DETECTION_DISABLED=1 @CMakeFiles/application_tests.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\application_tests.dir\\src\\app_tests.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\tests\\src\\app_tests.cpp",
   "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/tests/src/app_tests.cpp"
 }
 ]

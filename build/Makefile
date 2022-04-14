@@ -600,17 +600,17 @@ app_template_dll/fast:
 .PHONY : app_template_dll/fast
 
 #=============================================================================
-# Target rules for targets named app_template_tests
+# Target rules for targets named application_tests
 
 # Build rule for target.
-app_template_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app_template_tests
-.PHONY : app_template_tests
+application_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 application_tests
+.PHONY : application_tests
 
 # fast build rule for target.
-app_template_tests/fast:
-	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/build
-.PHONY : app_template_tests/fast
+application_tests/fast:
+	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/build
+.PHONY : application_tests/fast
 
 # Help Target
 help:
@@ -657,7 +657,7 @@ help:
 	@echo ... CppUTestExt
 	@echo ... app_template
 	@echo ... app_template_dll
-	@echo ... app_template_tests
+	@echo ... application_tests
 	@echo ... my_cpputest
 .PHONY : help
 

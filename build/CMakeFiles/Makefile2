@@ -222,7 +222,7 @@ source/application/clean: source/application/tests/clean
 # Directory level rules for directory source/application/tests
 
 # Recursive "all" directory target.
-source/application/tests/all: source/application/tests/CMakeFiles/app_template_tests.dir/all
+source/application/tests/all: source/application/tests/CMakeFiles/application_tests.dir/all
 .PHONY : source/application/tests/all
 
 # Recursive "preinstall" directory target.
@@ -230,7 +230,7 @@ source/application/tests/preinstall:
 .PHONY : source/application/tests/preinstall
 
 # Recursive "clean" directory target.
-source/application/tests/clean: source/application/tests/CMakeFiles/app_template_tests.dir/clean
+source/application/tests/clean: source/application/tests/CMakeFiles/application_tests.dir/clean
 .PHONY : source/application/tests/clean
 
 #=============================================================================
@@ -1070,7 +1070,7 @@ source/application/CMakeFiles/app_template.dir/clean:
 # Target rules for target source/application/CMakeFiles/app_template_dll.dir
 
 # All Build rule for target.
-source/application/CMakeFiles/app_template_dll.dir/all: source/application/CMakeFiles/app_template.dir/all
+source/application/CMakeFiles/app_template_dll.dir/all:
 	$(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/depend
 	$(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles --progress-num=40,41,42 "Built target app_template_dll"
@@ -1078,7 +1078,7 @@ source/application/CMakeFiles/app_template_dll.dir/all: source/application/CMake
 
 # Build rule for subdir invocation for target.
 source/application/CMakeFiles/app_template_dll.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/application/CMakeFiles/app_template_dll.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles 0
 .PHONY : source/application/CMakeFiles/app_template_dll.dir/rule
@@ -1093,30 +1093,32 @@ source/application/CMakeFiles/app_template_dll.dir/clean:
 .PHONY : source/application/CMakeFiles/app_template_dll.dir/clean
 
 #=============================================================================
-# Target rules for target source/application/tests/CMakeFiles/app_template_tests.dir
+# Target rules for target source/application/tests/CMakeFiles/application_tests.dir
 
 # All Build rule for target.
-source/application/tests/CMakeFiles/app_template_tests.dir/all:
-	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/depend
-	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles --progress-num=43,44,45 "Built target app_template_tests"
-.PHONY : source/application/tests/CMakeFiles/app_template_tests.dir/all
+source/application/tests/CMakeFiles/application_tests.dir/all: extern/my_cpputest/CMakeFiles/my_cpputest.dir/all
+source/application/tests/CMakeFiles/application_tests.dir/all: extern/my_cpputest/cpputest/src/CppUTestExt/CMakeFiles/CppUTestExt.dir/all
+source/application/tests/CMakeFiles/application_tests.dir/all: extern/my_cpputest/cpputest/src/CppUTest/CMakeFiles/CppUTest.dir/all
+	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles --progress-num=43,44,45 "Built target application_tests"
+.PHONY : source/application/tests/CMakeFiles/application_tests.dir/all
 
 # Build rule for subdir invocation for target.
-source/application/tests/CMakeFiles/app_template_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/application/tests/CMakeFiles/app_template_tests.dir/all
+source/application/tests/CMakeFiles/application_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles 42
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/application/tests/CMakeFiles/application_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles 0
-.PHONY : source/application/tests/CMakeFiles/app_template_tests.dir/rule
+.PHONY : source/application/tests/CMakeFiles/application_tests.dir/rule
 
 # Convenience name for target.
-app_template_tests: source/application/tests/CMakeFiles/app_template_tests.dir/rule
-.PHONY : app_template_tests
+application_tests: source/application/tests/CMakeFiles/application_tests.dir/rule
+.PHONY : application_tests
 
 # clean rule for target.
-source/application/tests/CMakeFiles/app_template_tests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\app_template_tests.dir\build.make source/application/tests/CMakeFiles/app_template_tests.dir/clean
-.PHONY : source/application/tests/CMakeFiles/app_template_tests.dir/clean
+source/application/tests/CMakeFiles/application_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/clean
+.PHONY : source/application/tests/CMakeFiles/application_tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

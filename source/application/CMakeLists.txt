@@ -83,7 +83,8 @@ if(APP_TEMPLATE_BUILD_SHARED)
 
     target_link_libraries(app_template_dll
         PRIVATE
-            app_template
+            application
+            # app_template
     )
 
     if(APP_TEMPLATE_INSTALL_SHARED)

@@ -109,7 +109,6 @@ app_template_dll_EXTERNAL_OBJECTS =
 source/application/libapp_template_dll.dll: source/application/CMakeFiles/app_template_dll.dir/src/c_dll_wrapper.cpp.obj
 source/application/libapp_template_dll.dll: source/application/CMakeFiles/app_template_dll.dir/src/DLLMain.cpp.obj
 source/application/libapp_template_dll.dll: source/application/CMakeFiles/app_template_dll.dir/build.make
-source/application/libapp_template_dll.dll: source/application/libapp_template.a
 source/application/libapp_template_dll.dll: source/application/CMakeFiles/app_template_dll.dir/linklibs.rsp
 source/application/libapp_template_dll.dll: source/application/CMakeFiles/app_template_dll.dir/objects1.rsp
 source/application/libapp_template_dll.dll: source/application/CMakeFiles/app_template_dll.dir/link.txt

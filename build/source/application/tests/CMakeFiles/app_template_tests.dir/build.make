@@ -69,6 +69,7 @@ include source/application/tests/CMakeFiles/app_template_tests.dir/progress.make
 include source/application/tests/CMakeFiles/app_template_tests.dir/flags.make
 
 source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.obj: source/application/tests/CMakeFiles/app_template_tests.dir/flags.make
+source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.obj: source/application/tests/CMakeFiles/app_template_tests.dir/includes_CXX.rsp
 source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.obj: ../source/application/tests/src/main.cpp
 source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.obj: source/application/tests/CMakeFiles/app_template_tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.obj"
@@ -83,6 +84,7 @@ source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.s: cmake
 	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\source\application\tests && C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\source\application\tests\src\main.cpp -o CMakeFiles\app_template_tests.dir\src\main.cpp.s
 
 source/application/tests/CMakeFiles/app_template_tests.dir/src/app_tests.cpp.obj: source/application/tests/CMakeFiles/app_template_tests.dir/flags.make
+source/application/tests/CMakeFiles/app_template_tests.dir/src/app_tests.cpp.obj: source/application/tests/CMakeFiles/app_template_tests.dir/includes_CXX.rsp
 source/application/tests/CMakeFiles/app_template_tests.dir/src/app_tests.cpp.obj: ../source/application/tests/src/app_tests.cpp
 source/application/tests/CMakeFiles/app_template_tests.dir/src/app_tests.cpp.obj: source/application/tests/CMakeFiles/app_template_tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/application/tests/CMakeFiles/app_template_tests.dir/src/app_tests.cpp.obj"
@@ -107,6 +109,9 @@ app_template_tests_EXTERNAL_OBJECTS =
 source/application/tests/app_template_tests.exe: source/application/tests/CMakeFiles/app_template_tests.dir/src/main.cpp.obj
 source/application/tests/app_template_tests.exe: source/application/tests/CMakeFiles/app_template_tests.dir/src/app_tests.cpp.obj
 source/application/tests/app_template_tests.exe: source/application/tests/CMakeFiles/app_template_tests.dir/build.make
+source/application/tests/app_template_tests.exe: extern/my_cpputest/libmy_cpputest.a
+source/application/tests/app_template_tests.exe: extern/my_cpputest/cpputest/src/CppUTest/libCppUTest.a
+source/application/tests/app_template_tests.exe: extern/my_cpputest/cpputest/src/CppUTestExt/libCppUTestExt.a
 source/application/tests/app_template_tests.exe: source/application/tests/CMakeFiles/app_template_tests.dir/linklibs.rsp
 source/application/tests/app_template_tests.exe: source/application/tests/CMakeFiles/app_template_tests.dir/objects1.rsp
 source/application/tests/app_template_tests.exe: source/application/tests/CMakeFiles/app_template_tests.dir/link.txt
