@@ -1,0 +1,21 @@
+Start testing: Apr 14 13:37 ?rodkowoeuropejski czas letni
+----------------------------------------------------------
+1/1 Testing: application_tests.SimpleAppTest.AddTest
+1/1 Test: application_tests.SimpleAppTest.AddTest
+Command: "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/tests/application_tests.exe" "-sg" "SimpleAppTest" "-sn" "AddTest"
+Directory: D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/tests
+"application_tests.SimpleAppTest.AddTest" start time: Apr 14 13:37 ?rodkowoeuropejski czas letni
+Output:
+----------------------------------------------------------
+.
+OK (1 tests, 1 ran, 1 checks, 0 ignored, 0 filtered out, 0 ms)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"application_tests.SimpleAppTest.AddTest" end time: Apr 14 13:37 ?rodkowoeuropejski czas letni
+"application_tests.SimpleAppTest.AddTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 14 13:37 ?rodkowoeuropejski czas letni

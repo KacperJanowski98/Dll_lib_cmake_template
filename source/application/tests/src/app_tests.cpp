@@ -6,6 +6,7 @@
 TEST_GROUP(SimpleAppTest)
 {
     int result;
+    TestApp app;
 
     void setup()
     {
@@ -17,3 +18,9 @@ TEST_GROUP(SimpleAppTest)
 };
 
 #define test(x) TEST(SimpleAppTest, x)
+
+test(AddTest)
+{
+    result = app.add(2, 5);
+    CHECK_EQUAL(7, result);
+}

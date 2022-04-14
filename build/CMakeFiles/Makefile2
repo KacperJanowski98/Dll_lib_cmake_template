@@ -237,8 +237,8 @@ source/application/tests/clean: source/application/tests/CMakeFiles/application_
 # Target rules for target extern/my_cpputest/CMakeFiles/my_cpputest.dir
 
 # All Build rule for target.
-extern/my_cpputest/CMakeFiles/my_cpputest.dir/all: extern/my_cpputest/cpputest/src/CppUTest/CMakeFiles/CppUTest.dir/all
 extern/my_cpputest/CMakeFiles/my_cpputest.dir/all: extern/my_cpputest/cpputest/src/CppUTestExt/CMakeFiles/CppUTestExt.dir/all
+extern/my_cpputest/CMakeFiles/my_cpputest.dir/all: extern/my_cpputest/cpputest/src/CppUTest/CMakeFiles/CppUTest.dir/all
 	$(MAKE) $(MAKESILENT) -f extern\my_cpputest\CMakeFiles\my_cpputest.dir\build.make extern/my_cpputest/CMakeFiles/my_cpputest.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern\my_cpputest\CMakeFiles\my_cpputest.dir\build.make extern/my_cpputest/CMakeFiles/my_cpputest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\CMakeFiles --progress-num=46,47 "Built target my_cpputest"
@@ -1097,8 +1097,8 @@ source/application/CMakeFiles/application_dll.dir/clean:
 
 # All Build rule for target.
 source/application/tests/CMakeFiles/application_tests.dir/all: extern/my_cpputest/CMakeFiles/my_cpputest.dir/all
-source/application/tests/CMakeFiles/application_tests.dir/all: extern/my_cpputest/cpputest/src/CppUTest/CMakeFiles/CppUTest.dir/all
 source/application/tests/CMakeFiles/application_tests.dir/all: extern/my_cpputest/cpputest/src/CppUTestExt/CMakeFiles/CppUTestExt.dir/all
+source/application/tests/CMakeFiles/application_tests.dir/all: extern/my_cpputest/cpputest/src/CppUTest/CMakeFiles/CppUTest.dir/all
 source/application/tests/CMakeFiles/application_tests.dir/all: source/application/CMakeFiles/application.dir/all
 	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f source\application\tests\CMakeFiles\application_tests.dir\build.make source/application/tests/CMakeFiles/application_tests.dir/build

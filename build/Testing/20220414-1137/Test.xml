@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220414-1137-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-IDPQ4B2"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22000)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="24921"
+	TotalPhysicalMemory="16217"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1991"
+	>
+	<Testing>
+		<StartDateTime>Apr 14 13:37 ?rodkowoeuropejski czas letni</StartDateTime>
+		<StartTestTime>1649936228</StartTestTime>
+		<TestList>
+			<Test>./source/application/tests/application_tests.SimpleAppTest.AddTest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>application_tests.SimpleAppTest.AddTest</Name>
+			<Path>./source/application/tests</Path>
+			<FullName>./source/application/tests/application_tests.SimpleAppTest.AddTest</FullName>
+			<FullCommandLine>D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\source\application\tests\application_tests.exe "-sg" "SimpleAppTest" "-sn" "AddTest"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0209135</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build\source\application\tests\application_tests.exe "-sg" "SimpleAppTest" "-sn" "AddTest"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>.
+OK (1 tests, 1 ran, 1 checks, 0 ignored, 0 filtered out, 0 ms)
+
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 14 13:37 ?rodkowoeuropejski czas letni</EndDateTime>
+		<EndTestTime>1649936228</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -524,14 +524,14 @@
 				{
 					"directoryIndex" : 8,
 					"id" : "application_tests::@c8ac049385a126aea66e",
-					"jsonFile" : "target-application_tests-DEBUG-beb5f02a3f9e6fea34ae.json",
+					"jsonFile" : "target-application_tests-DEBUG-0694b1f0cbcc765ca0ca.json",
 					"name" : "application_tests",
 					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "my_cpputest::@037084d40ca77bc0a94a",
-					"jsonFile" : "target-my_cpputest-DEBUG-e340f08b4639964c1a07.json",
+					"jsonFile" : "target-my_cpputest-DEBUG-80f87ff290a2239c045b.json",
 					"name" : "my_cpputest",
 					"projectIndex" : 1
 				}
