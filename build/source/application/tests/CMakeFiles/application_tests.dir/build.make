@@ -110,6 +110,7 @@ source/application/tests/application_tests.exe: source/application/tests/CMakeFi
 source/application/tests/application_tests.exe: source/application/tests/CMakeFiles/application_tests.dir/src/app_tests.cpp.obj
 source/application/tests/application_tests.exe: source/application/tests/CMakeFiles/application_tests.dir/build.make
 source/application/tests/application_tests.exe: extern/my_cpputest/libmy_cpputest.a
+source/application/tests/application_tests.exe: source/application/libapplication.a
 source/application/tests/application_tests.exe: extern/my_cpputest/cpputest/src/CppUTest/libCppUTest.a
 source/application/tests/application_tests.exe: extern/my_cpputest/cpputest/src/CppUTestExt/libCppUTestExt.a
 source/application/tests/application_tests.exe: source/application/tests/CMakeFiles/application_tests.dir/linklibs.rsp

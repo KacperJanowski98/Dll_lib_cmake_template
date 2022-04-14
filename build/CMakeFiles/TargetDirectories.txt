@@ -78,8 +78,8 @@ D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/so
 D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/CMakeFiles/install.dir
 D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/CMakeFiles/install/local.dir
 D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/CMakeFiles/install/strip.dir
-D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/CMakeFiles/app_template.dir
-D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/CMakeFiles/app_template_dll.dir
+D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/CMakeFiles/application.dir
+D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/CMakeFiles/application_dll.dir
 D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/CMakeFiles/test.dir
 D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/CMakeFiles/edit_cache.dir
 D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,42 @@
+
+#ifndef APPLICATION_DLL_EXPORT_H
+#define APPLICATION_DLL_EXPORT_H
+
+#ifdef APPLICATION_DLL_STATIC_DEFINE
+#  define APPLICATION_DLL_EXPORT
+#  define APPLICATION_DLL_NO_EXPORT
+#else
+#  ifndef APPLICATION_DLL_EXPORT
+#    ifdef application_dll_EXPORTS
+        /* We are building this library */
+#      define APPLICATION_DLL_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define APPLICATION_DLL_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef APPLICATION_DLL_NO_EXPORT
+#    define APPLICATION_DLL_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef APPLICATION_DLL_DEPRECATED
+#  define APPLICATION_DLL_DEPRECATED __attribute__ ((__deprecated__))
+#endif
+
+#ifndef APPLICATION_DLL_DEPRECATED_EXPORT
+#  define APPLICATION_DLL_DEPRECATED_EXPORT APPLICATION_DLL_EXPORT APPLICATION_DLL_DEPRECATED
+#endif
+
+#ifndef APPLICATION_DLL_DEPRECATED_NO_EXPORT
+#  define APPLICATION_DLL_DEPRECATED_NO_EXPORT APPLICATION_DLL_NO_EXPORT APPLICATION_DLL_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef APPLICATION_DLL_NO_DEPRECATED
+#    define APPLICATION_DLL_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* APPLICATION_DLL_EXPORT_H */

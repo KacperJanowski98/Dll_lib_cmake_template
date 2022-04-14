@@ -1,0 +1,97 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"source/application/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/application",
+			"paths" : 
+			[
+				"source/application/libapplication.a"
+			],
+			"targetId" : "application::@72e6c083a7135e3b452e",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/application",
+			"paths" : 
+			[
+				"source/application/include/application/simple_app.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/shared/application",
+			"paths" : 
+			[
+				"source/application/libapplication_dll.dll.a"
+			],
+			"targetId" : "application_dll::@72e6c083a7135e3b452e",
+			"targetIndex" : 31,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin/shared/application",
+			"paths" : 
+			[
+				"source/application/libapplication_dll.dll"
+			],
+			"targetId" : "application_dll::@72e6c083a7135e3b452e",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/shared/application",
+			"paths" : 
+			[
+				"build/source/application/application_dll_export.h",
+				"source/application/include/application/c_dll_wrapper.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "source/application",
+		"source" : "source/application"
+	}
+}

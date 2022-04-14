@@ -39,37 +39,37 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/app_template/libapp_template.a")
+   "/application/libapplication.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/app_template" TYPE STATIC_LIBRARY FILES "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/libapp_template.a")
+  file(INSTALL DESTINATION "/application" TYPE STATIC_LIBRARY FILES "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/libapplication.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/app_template" TYPE FILE FILES "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/include/application/simple_app.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/application" TYPE FILE FILES "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/include/application/simple_app.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/shared/app_template" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/libapp_template_dll.dll.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/shared/application" TYPE STATIC_LIBRARY OPTIONAL FILES "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/libapplication_dll.dll.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/shared/app_template" TYPE SHARED_LIBRARY FILES "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/libapp_template_dll.dll")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/shared/app_template/libapp_template_dll.dll" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/shared/app_template/libapp_template_dll.dll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/shared/application" TYPE SHARED_LIBRARY FILES "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/libapplication_dll.dll")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/shared/application/libapplication_dll.dll" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/shared/application/libapplication_dll.dll")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "C:/MinGW/mingw64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/shared/app_template/libapp_template_dll.dll")
+      execute_process(COMMAND "C:/MinGW/mingw64/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/shared/application/libapplication_dll.dll")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/shared/app_template" TYPE FILE FILES
-    "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/app_template_dll_export.h"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/shared/application" TYPE FILE FILES
+    "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/application_dll_export.h"
     "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/include/application/c_dll_wrapper.h"
     )
 endif()

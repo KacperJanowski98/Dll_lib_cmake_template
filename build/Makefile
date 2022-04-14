@@ -574,30 +574,30 @@ CppUTestExt/fast:
 .PHONY : CppUTestExt/fast
 
 #=============================================================================
-# Target rules for targets named app_template
+# Target rules for targets named application
 
 # Build rule for target.
-app_template: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app_template
-.PHONY : app_template
+application: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 application
+.PHONY : application
 
 # fast build rule for target.
-app_template/fast:
-	$(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template.dir\build.make source/application/CMakeFiles/app_template.dir/build
-.PHONY : app_template/fast
+application/fast:
+	$(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application.dir\build.make source/application/CMakeFiles/application.dir/build
+.PHONY : application/fast
 
 #=============================================================================
-# Target rules for targets named app_template_dll
+# Target rules for targets named application_dll
 
 # Build rule for target.
-app_template_dll: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app_template_dll
-.PHONY : app_template_dll
+application_dll: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 application_dll
+.PHONY : application_dll
 
 # fast build rule for target.
-app_template_dll/fast:
-	$(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/build
-.PHONY : app_template_dll/fast
+application_dll/fast:
+	$(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application_dll.dir\build.make source/application/CMakeFiles/application_dll.dir/build
+.PHONY : application_dll/fast
 
 #=============================================================================
 # Target rules for targets named application_tests
@@ -655,8 +655,8 @@ help:
 	@echo ... NightlyUpdate
 	@echo ... CppUTest
 	@echo ... CppUTestExt
-	@echo ... app_template
-	@echo ... app_template_dll
+	@echo ... application
+	@echo ... application_dll
 	@echo ... application_tests
 	@echo ... my_cpputest
 .PHONY : help

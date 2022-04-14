@@ -1,0 +1,6 @@
+/application/libapplication.a
+D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/install/include/application/simple_app.hpp
+D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/install/lib/shared/application/libapplication_dll.dll.a
+D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/install/bin/shared/application/libapplication_dll.dll
+D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/install/include/shared/application/application_dll_export.h
+D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/install/include/shared/application/c_dll_wrapper.h

@@ -1,2 +1,0 @@
-C:\MinGW\mingw64\bin\ar.exe qc libapp_template.a CMakeFiles/app_template.dir/src/simple_app.cpp.obj
-C:\MinGW\mingw64\bin\ranlib.exe libapp_template.a

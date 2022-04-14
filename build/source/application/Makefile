@@ -171,39 +171,39 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-source/application/CMakeFiles/app_template.dir/rule:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/application/CMakeFiles/app_template.dir/rule
-.PHONY : source/application/CMakeFiles/app_template.dir/rule
+source/application/CMakeFiles/application.dir/rule:
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/application/CMakeFiles/application.dir/rule
+.PHONY : source/application/CMakeFiles/application.dir/rule
 
 # Convenience name for target.
-app_template: source/application/CMakeFiles/app_template.dir/rule
-.PHONY : app_template
+application: source/application/CMakeFiles/application.dir/rule
+.PHONY : application
 
 # fast build rule for target.
-app_template/fast:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template.dir\build.make source/application/CMakeFiles/app_template.dir/build
-.PHONY : app_template/fast
+application/fast:
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application.dir\build.make source/application/CMakeFiles/application.dir/build
+.PHONY : application/fast
 
 # Convenience name for target.
-source/application/CMakeFiles/app_template_dll.dir/rule:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/application/CMakeFiles/app_template_dll.dir/rule
-.PHONY : source/application/CMakeFiles/app_template_dll.dir/rule
+source/application/CMakeFiles/application_dll.dir/rule:
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/application/CMakeFiles/application_dll.dir/rule
+.PHONY : source/application/CMakeFiles/application_dll.dir/rule
 
 # Convenience name for target.
-app_template_dll: source/application/CMakeFiles/app_template_dll.dir/rule
-.PHONY : app_template_dll
+application_dll: source/application/CMakeFiles/application_dll.dir/rule
+.PHONY : application_dll
 
 # fast build rule for target.
-app_template_dll/fast:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/build
-.PHONY : app_template_dll/fast
+application_dll/fast:
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application_dll.dir\build.make source/application/CMakeFiles/application_dll.dir/build
+.PHONY : application_dll/fast
 
 src/DLLMain.obj: src/DLLMain.cpp.obj
 .PHONY : src/DLLMain.obj
 
 # target to build an object file
 src/DLLMain.cpp.obj:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/src/DLLMain.cpp.obj
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application_dll.dir\build.make source/application/CMakeFiles/application_dll.dir/src/DLLMain.cpp.obj
 .PHONY : src/DLLMain.cpp.obj
 
 src/DLLMain.i: src/DLLMain.cpp.i
@@ -211,7 +211,7 @@ src/DLLMain.i: src/DLLMain.cpp.i
 
 # target to preprocess a source file
 src/DLLMain.cpp.i:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/src/DLLMain.cpp.i
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application_dll.dir\build.make source/application/CMakeFiles/application_dll.dir/src/DLLMain.cpp.i
 .PHONY : src/DLLMain.cpp.i
 
 src/DLLMain.s: src/DLLMain.cpp.s
@@ -219,7 +219,7 @@ src/DLLMain.s: src/DLLMain.cpp.s
 
 # target to generate assembly for a file
 src/DLLMain.cpp.s:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/src/DLLMain.cpp.s
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application_dll.dir\build.make source/application/CMakeFiles/application_dll.dir/src/DLLMain.cpp.s
 .PHONY : src/DLLMain.cpp.s
 
 src/c_dll_wrapper.obj: src/c_dll_wrapper.cpp.obj
@@ -227,7 +227,7 @@ src/c_dll_wrapper.obj: src/c_dll_wrapper.cpp.obj
 
 # target to build an object file
 src/c_dll_wrapper.cpp.obj:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/src/c_dll_wrapper.cpp.obj
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application_dll.dir\build.make source/application/CMakeFiles/application_dll.dir/src/c_dll_wrapper.cpp.obj
 .PHONY : src/c_dll_wrapper.cpp.obj
 
 src/c_dll_wrapper.i: src/c_dll_wrapper.cpp.i
@@ -235,7 +235,7 @@ src/c_dll_wrapper.i: src/c_dll_wrapper.cpp.i
 
 # target to preprocess a source file
 src/c_dll_wrapper.cpp.i:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/src/c_dll_wrapper.cpp.i
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application_dll.dir\build.make source/application/CMakeFiles/application_dll.dir/src/c_dll_wrapper.cpp.i
 .PHONY : src/c_dll_wrapper.cpp.i
 
 src/c_dll_wrapper.s: src/c_dll_wrapper.cpp.s
@@ -243,7 +243,7 @@ src/c_dll_wrapper.s: src/c_dll_wrapper.cpp.s
 
 # target to generate assembly for a file
 src/c_dll_wrapper.cpp.s:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template_dll.dir\build.make source/application/CMakeFiles/app_template_dll.dir/src/c_dll_wrapper.cpp.s
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application_dll.dir\build.make source/application/CMakeFiles/application_dll.dir/src/c_dll_wrapper.cpp.s
 .PHONY : src/c_dll_wrapper.cpp.s
 
 src/simple_app.obj: src/simple_app.cpp.obj
@@ -251,7 +251,7 @@ src/simple_app.obj: src/simple_app.cpp.obj
 
 # target to build an object file
 src/simple_app.cpp.obj:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template.dir\build.make source/application/CMakeFiles/app_template.dir/src/simple_app.cpp.obj
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application.dir\build.make source/application/CMakeFiles/application.dir/src/simple_app.cpp.obj
 .PHONY : src/simple_app.cpp.obj
 
 src/simple_app.i: src/simple_app.cpp.i
@@ -259,7 +259,7 @@ src/simple_app.i: src/simple_app.cpp.i
 
 # target to preprocess a source file
 src/simple_app.cpp.i:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template.dir\build.make source/application/CMakeFiles/app_template.dir/src/simple_app.cpp.i
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application.dir\build.make source/application/CMakeFiles/application.dir/src/simple_app.cpp.i
 .PHONY : src/simple_app.cpp.i
 
 src/simple_app.s: src/simple_app.cpp.s
@@ -267,7 +267,7 @@ src/simple_app.s: src/simple_app.cpp.s
 
 # target to generate assembly for a file
 src/simple_app.cpp.s:
-	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\app_template.dir\build.make source/application/CMakeFiles/app_template.dir/src/simple_app.cpp.s
+	cd /d D:\Cmake_projecy_template\Dll_lib_template_cmake\Dll_lib_cmake_template\build && $(MAKE) $(MAKESILENT) -f source\application\CMakeFiles\application.dir\build.make source/application/CMakeFiles/application.dir/src/simple_app.cpp.s
 .PHONY : src/simple_app.cpp.s
 
 # Help Target
@@ -283,8 +283,8 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... app_template
-	@echo ... app_template_dll
+	@echo ... application
+	@echo ... application_dll
 	@echo ... src/DLLMain.obj
 	@echo ... src/DLLMain.i
 	@echo ... src/DLLMain.s

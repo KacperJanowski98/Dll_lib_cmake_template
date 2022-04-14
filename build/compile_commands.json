@@ -181,17 +181,17 @@
 },
 {
   "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application",
-  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe  @CMakeFiles/app_template.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template.dir\\src\\simple_app.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\src\\simple_app.cpp",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe  @CMakeFiles/application.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\application.dir\\src\\simple_app.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\src\\simple_app.cpp",
   "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/src/simple_app.cpp"
 },
 {
   "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application",
-  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -Dapp_template_dll_EXPORTS @CMakeFiles/app_template_dll.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template_dll.dir\\src\\c_dll_wrapper.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\src\\c_dll_wrapper.cpp",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -Dapplication_dll_EXPORTS @CMakeFiles/application_dll.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\application_dll.dir\\src\\c_dll_wrapper.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\src\\c_dll_wrapper.cpp",
   "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/src/c_dll_wrapper.cpp"
 },
 {
   "directory": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application",
-  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -Dapp_template_dll_EXPORTS @CMakeFiles/app_template_dll.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\app_template_dll.dir\\src\\DLLMain.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\src\\DLLMain.cpp",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe -Dapplication_dll_EXPORTS @CMakeFiles/application_dll.dir/includes_CXX.rsp  -Wall -Wextra -Wfatal-errors -Wno-unused-parameter -ftemplate-backtrace-limit=0 -Wunreachable-code -Wno-unused-value -Wno-unused-local-typedefs -Wformat=0 -Wno-missing-field-initializers -g3 -O0 -gdwarf-2 -o CMakeFiles\\application_dll.dir\\src\\DLLMain.cpp.obj -c D:\\Cmake_projecy_template\\Dll_lib_template_cmake\\Dll_lib_cmake_template\\source\\application\\src\\DLLMain.cpp",
   "file": "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/source/application/src/DLLMain.cpp"
 },
 {

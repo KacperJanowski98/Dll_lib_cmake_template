@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/CMakeFiles/my_cpputest.dir/DependInfo.cmake"
+  "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/source/application/CMakeFiles/application.dir/DependInfo.cmake"
   "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTest/CMakeFiles/CppUTest.dir/DependInfo.cmake"
   "D:/Cmake_projecy_template/Dll_lib_template_cmake/Dll_lib_cmake_template/build/extern/my_cpputest/cpputest/src/CppUTestExt/CMakeFiles/CppUTestExt.dir/DependInfo.cmake"
   )
